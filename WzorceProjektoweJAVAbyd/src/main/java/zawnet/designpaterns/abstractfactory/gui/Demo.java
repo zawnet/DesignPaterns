@@ -1,5 +1,7 @@
 package zawnet.designpaterns.abstractfactory.gui;
 
+import java.util.Arrays;
+
 public class Demo {
 
     private static Application configureApplication() {
@@ -16,6 +18,7 @@ public class Demo {
         return app;
     }
     public static void main(String[] args) {
+
         Application application = configureApplication();
         application.paint();
     }
